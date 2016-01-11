@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   var keyStroke = 0;
   var score = 0;
-  var targetScore = 3;
+  var targetScore = 1;
 
   // Load a puzzle here
   var puzzle;
@@ -68,9 +68,9 @@ $(document).ready(function() {
     keyStroke = 0;
     puzzle = puzzles[_.random(0, puzzles.length - 1)];
     $('.content-wrap').html(puzzleTemplate(puzzle));
+    highlightNextLetter(0);
   };
 
-  highlightNextLetter(0);
   updateScore(score);
   loadPuzzle();
 

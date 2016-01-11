@@ -11,9 +11,10 @@ Runs a local server at [localhost:9000](http://localhost:9000)
 
 ## Todos
 
+- [ ] Add local settings (localstorage to set target scores)
+- [ ] Add option to change case of puzzles (some keyboard layouts are upcase)
 - [ ] Add more answers to the puzzle to limit duplicates per quiz
 - [ ] Prevent duplicate Puzzles from appearing
-- [ ] Add option to change case of puzzles (some keyboard layouts are upcase)
 - [ ] Create a simple to manage backend for answers/puzzles
 - [ ] Possible subdomains for other people to have custom quizzes
 
